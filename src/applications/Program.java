@@ -13,8 +13,8 @@ public class Program {
 		
 		Seller seller = new Seller(21, "Bob", "bob@gemail.com", new Date(), 3000.00, obj);
 		
-		System.out.println(seller);
 		
+		System.out.println(seller.hashCode());
 	}
 
 }
